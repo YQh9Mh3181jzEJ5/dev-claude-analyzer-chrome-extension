@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Analyzer",
+  "version": "1.0",
+  "description": "選択したテキストをClaudeで解析&ようやくします",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
